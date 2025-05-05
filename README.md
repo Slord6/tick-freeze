@@ -1,13 +1,15 @@
 # tick-freeze
 
-Freeze a minecraft world when no players are online
+(Almost) freeze a minecraft world when no players are online
 
-A modification of the [Idle Freeze](https://modrinth.com/datapack/tickfreeze) 1.0.1 datapack which additionally tick freezes, as well as pausing time.
+A modification of the [Idle Freeze](https://modrinth.com/datapack/tickfreeze) 1.0.1 datapack which additionally slows tick rate to the lowest possible (1), as well as pausing the daylight cycle.
+
+Note that it doesn't completely freeze the world, as that would also stop the datapack running, so time would never unpause.
 
 ## Changes
 
-- Additionally call `tick freeze` and `tick unfreeze`
-- Change name of
+- Additionally call `tick rate 1` and `tick rate 20`
+- Change namespace/author to tickfreeze
 
 ## Licence
 
